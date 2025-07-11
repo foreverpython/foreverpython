@@ -49,7 +49,12 @@ export default defineConfig({
     ],
     logo: { light: "/logo-light.svg", dark: "/logo-dark.svg" },
     search: {
-      provider: "local",
+      provider: 'algolia',
+      options: {
+        appId: 'VO7N7AV2TC',
+        apiKey: '30c312e2b8068f487f1c0c9e452af8a5',
+        indexName: 'Blog Site'
+      }
     },
     socialLinks: [{ icon: "github", link: "https://github.com/foreverpython/foreverpython" }],
   },
