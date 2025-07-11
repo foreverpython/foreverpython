@@ -27,26 +27,32 @@ Make sure you have [pnpm](https://pnpm.io/installation) and [Poetry](https://pyt
 ### Development
 
 1.  Install NPM packages:
-    ```sh
-    pnpm install
-    ```
+
+```sh
+pnpm install
+```
+
 2.  Run the development server:
-    ```sh
-    pnpm dev
-    ```
+
+```sh
+pnpm dev
+```
 
 ### Formatting
 
 To format Jupyter notebooks and Python files using Black:
 
 1.  Install Python dependencies:
-    ```sh
-    poetry install
-    ```
+
+```sh
+poetry install
+```
+
 2.  Run the formatter:
-    ```sh
-    poetry run black .
-    ```
+
+```sh
+poetry run black .
+```
 
 ## 🤝 Contributing
 
