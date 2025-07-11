@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "foreverpython-website",
+  "compatibility_date": "2025-06-20",
+  "assets": { "directory": "./docs/.vitepress/dist" },
+  "observability": { "enabled": true }
+}

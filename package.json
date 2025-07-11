@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "notebook:dev": "nodemon --watch . --ext ipynb --exec 'node converter.cjs'",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "dev": "concurrently \"npm run docs:dev\" \"npm run notebook:dev\""
+  },
+  "type": "module",
+  "devDependencies": {
+    "@jupyterlab/nbformat": "^4.4.3",
+    "concurrently": "^9.2.0",
+    "glob": "^11.0.3",
+    "markdown-it": "^14.1.0",
+    "nodemon": "^3.1.10",
+    "remove-markdown": "^0.6.2",
+    "ts-node": "^10.9.2",
+    "vitepress": "github:foreverpython/vitepress#v1",
+    "vue": "^3.5.17"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.0"
+  }
+}
