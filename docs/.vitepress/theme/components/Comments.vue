@@ -15,10 +15,10 @@ const elementKey = computed(() => {
     <component
       :is="'script'"
       src="https://giscus.app/client.js"
-      data-repo="mohankumarelec/sample_repository"
-      data-repo-id="R_kgDOPK7CmA"
+      data-repo="foreverpython/foreverpython"
+      data-repo-id="R_kgDOO_GIhw"
       data-category="General"
-      data-category-id="DIC_kwDOPK7CmM4Cs066"
+      data-category-id="DIC_kwDOO_GIh84Cs1Gq"
       data-mapping="pathname"
       data-strict="0"
       data-reactions-enabled="1"
